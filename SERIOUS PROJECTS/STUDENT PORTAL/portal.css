@@ -1,0 +1,32 @@
+header, footer{
+
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    border: red inset 5pt;
+    border-radius: 20em;
+    margin: 20pt;
+}
+
+header h1{
+    font-size: 40px;
+    color: white;
+    text-align:center
+}
+
+header img{
+    width:100px; 
+    height: 100px;
+    border: outset 3px pink;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,66 @@
+header, footer{
+    background-color:rgb(209, 223, 218);
+    color:blue; text-align: center; font-family:'Times New Roman', Times, serif;
+    border: outset 3px rgb(59, 59, 95) ;
+    border-radius: 30em;
+    margin: 5%;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    border: rgb(2, 33, 80) 3px ridge;
+    border-radius: 100px;
+
+    p, article{
+        color: darkgreen;
+        font-size: 20px;
+        word-spacing: 2.5pt;
+        letter-spacing: 1px;
+        text-spacing-trim: space-first;
+    }
+
+    .p1, #p2, #dash, .prof, #course{
+        border: solid gray 0.2em;
+        border-radius: 20pt;
+        padding: 2%;
+        max-height: fit-content;
+        max-width: fit-content;
+
+    }
+
+    ::details-content{
+        color: rgb(5, 7, 161);
+        font-style: italic;
+    }
+}
+
+table{
+    text-align: center;
+    padding: 2%;
+    border: rgb(106, 119, 235) inset 3px;
+    border-radius: 25px;
+    background-color: rgb(185, 184, 184);
+
+}
+
+main{
+    margin: 30px;
+        
+    form{
+        font-size: 20px;
+        border: outset rgb(2, 54, 54) 2px;
+        border-radius: 25px;
+        padding: 2% 3%;
+        max-width: fit-content;
+        background-color: rgb(158, 157, 152);
+
+    }
+
+    span{
+        color:red
+    }
+}
+
+
